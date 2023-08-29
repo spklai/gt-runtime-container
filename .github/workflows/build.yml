@@ -38,6 +38,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
+          platforms: linux/amd64
           tags: |
             ghcr.io/${{ github.repository_owner }}/gt-runtime-container:latest
             ghcr.io/${{ github.repository_owner }}/gt-runtime-container:${{ env.TAG }}
