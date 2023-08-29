@@ -4,6 +4,9 @@ on:
   push:
     tags: ["*"]
 
+env:
+  BUILDX_NO_DEFAULT_ATTESTATIONS: 1
+
 jobs:
   build:
     runs-on: ubuntu-latest
