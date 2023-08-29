@@ -195,6 +195,7 @@ RUN set -eux; \
 
 # Install pdm
 RUN curl -sSL https://pdm.fming.dev/install-pdm.py | python -
+ENV PATH /root/.local/bin:$PATH
 
 #######################
 #      Entrypoint     #
