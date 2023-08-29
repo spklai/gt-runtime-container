@@ -15,7 +15,7 @@ with the following installed:
 
 ## Definitions
 
-More detail in the [config file](./.devcontainer.json).
+More detail in the [Dockerfile](./Dockerfile).
 
 ## License
 
