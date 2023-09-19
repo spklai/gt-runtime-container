@@ -73,7 +73,7 @@ RUN yarn set version stable
 ############################
 #      Install OCR dep     #
 ############################
-RUN apt install ocrmypdf -y
+RUN apt-get install -y ocrmypdf
 
 ############################
 #      Install python      #
