@@ -4,14 +4,12 @@ GT runtime container to be used as base image for production apps. Note that thi
 
 ## Environment
 
-Base image: `buildpack-deps:bookworm`
+Base image: `node:18-bookworm`
 
 with the following installed:
 
-- Node: 18.17.1
 - Yarn: stable
-- Python: 3.11.5
-- PDM: latest
+- ocrmypdf: latest
 
 ## Definitions
 
